@@ -1,2 +1,11 @@
 Flask
 Gunicorn
+Jinja2
+Werkzeug
+click
+scipy
+sklearn
+pandas 
+numpy
+pip
+joblib
