@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Breast Cancer Predictor</title>
+	<script src="https://kit.fontawesome.com/56d56ef2f8.js">
+
+	</script>
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js">
+
+	</script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <style>
+.rowo {
+  column-count: 2;
+  column-gap: 40px;
+}
+.body{
+  background-color: palevioletred ;
+  color: white;
+    width:95%;
+  margin: auto;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}html {
+  height: 100%;
+  width: 100%;
+}
+
+</style>
+</head>
+
+<body class="has-navbar-fixed-top body" class="body">
+	<nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="/">
+				<!-- Change logo image and image dimensions -->
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <!-- Add links to these items -->
+            <a class="navbar-item" datascroll href="https://colinwolfe.coho905.repl.co/">
+            Homepage
+          </a>
+
+          <a class="navbar-item" datascroll href="/thoreau.html">
+            Skin Cancer
+          </a>
+
+          <a class="navbar-item" datascroll href="/emerson.html">
+            Translator
+          </a>
+          <a class="navbar-item" datascroll href="/inde.html">
+            Breast Cancer
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div style="background-color:white;"><br><br></div>
+	<section class="hero main">
+      <div class="hero-body">
+        <div class="container title-box">
+          <h1 class="title is-size-4-mobile is-size-1-desktop body" align="center" style="color: white;">
+            <br>
+            <strong> Breast Cancer Predictor </strong>
+          </h1>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="about" style = "margin-right:100px;">
+    <p  style="color: white; align:center;" class="subtitle is-size-6-mobile is-size-4-desktop">
+    <form name="form", method="POST", style="text-align: center;">
+            <br>
+            Radius: <input type="number" name="weight1", placeholder="Enter" required/>
+            <br><br>
+            Texture: <input type="number" name="weight2", placeholder="Enter" required/>
+            <br><br>
+            Perimeter: <input type="number" name="weight3", placeholder="Enter" required/>
+            <br><br>
+            Area: <input type="number" name="weight4", placeholder="Enter" required/>
+            <br><br>
+            Smoothness: <input type="number" name="weight5", placeholder="Enter" required/>
+            <br><br>
+            Compactness: <input type="number" name="weight6", placeholder="Enter" required/>
+            <br><br>
+            <button value="Submit">Run</button>
+        </form>
+        <h3 style="text-align: center;">{{ output }}</h3></p>
+         <br><br>
+
+    </div>
+<div style="  background-color: palevioletred ;color: white;width:95%;margin: auto;height: 90%;">
+    <br><br><p>Hello Admissions Team :)</p>
+</div>
+  </body>
+</html>
