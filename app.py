@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 @app.route('/', methods=['GET', 'POST'])
-def hello_world():
+def main():
     # If a form is submitted
     if request.method == "POST":
 
@@ -35,3 +35,4 @@ def hello_world():
         prediction = ""
 
     return render_template("website.html", output=prediction)
+
