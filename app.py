@@ -27,9 +27,9 @@ def main():
         # Get prediction
         prediction = clf.predict(X)[0]
         if prediction == 0:
-            prediction = 'Benign'
+            prediction = 'Prediction: Benign'
         else:
-            prediction = 'Malignant'
+            prediction = 'Prediction: Malignant'
 
     else:
         prediction = ""
