@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
 	<title>Breast Cancer Predictor</title>
 	<script src="https://kit.fontawesome.com/56d56ef2f8.js">
 
@@ -12,20 +13,39 @@
 	</script>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-  <style>
+</head>
+<style>
+  html, body {
+  height: 900px;
+  width: 100%;
+margin:0 px;
+
+padding:0 px;
+  background-color: palevioletred;
+
+
+
+
+}
+.function{
+  height:100%;
+    background-color: palevioletred;
+
+}
+.hero main{
+
+padding:0 px;
+  margin: 0px;
+  height: 100%;
+
+}
 .rowo {
   column-count: 2;
-  column-gap: 40px;
+  column-gap: 20px;
 }
 .body{
   background-color: palevioletred ;
   color: white;
-    width:95%;
-  margin: auto;
-}
-.column {
-  float: left;
-  width: 50%;
 }
 
 /* Clear floats after the columns */
@@ -39,64 +59,33 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-}html {
-  height: 100%;
-  width: 100%;
+  width: 60%;
 }
-
 </style>
-</head>
-
-<body class="has-navbar-fixed-top body" class="body">
-	<nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
-		<div class="navbar-brand">
-			<a class="navbar-item" href="/">
-				<!-- Change logo image and image dimensions -->
-        </a>
-
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-
-      <div id="navbarMenu" class="navbar-menu">
-        <div class="navbar-start">
-          <!-- Add links to these items -->
-            <a class="navbar-item" datascroll href="https://colinwolfe.coho905.repl.co/">
-            Homepage
-          </a>
-
-          <a class="navbar-item" datascroll href="/thoreau.html">
-            Skin Cancer
-          </a>
-
-          <a class="navbar-item" datascroll href="/emerson.html">
-            Translator
-          </a>
-          <a class="navbar-item" datascroll href="/inde.html">
-            Breast Cancer
-          </a>
-        </div>
-      </div>
-    </nav>
-    <div style="background-color:white;"><br><br></div>
+<body class="has-navbar-fixed-top body" class="function" >
 	<section class="hero main">
-      <div class="hero-body">
+      <div class="function">
         <div class="container title-box">
           <h1 class="title is-size-4-mobile is-size-1-desktop body" align="center" style="color: white;">
-            <br>
             <strong> Breast Cancer Predictor </strong>
+            <br>
+            <br>
           </h1>
         </div>
       </div>
     </section>
-    <br>
-    <br>
-    <br>
-    <br>
+    
+  <style>.center {
+  text-align: center;
+  width: 63%;
+}</style>
+    <p  class="is-size-6-mobile is-size-4-desktop center"> Cancer detection can become widespread, cheap, and instantaneous thanks to machine learning, and I want to be at the forefront of that movement.  Over the past two years, I have worked on a mass measurement analysis program that uses machine learning to take breast tumor measurements from routine mammograms and classify them as benign or malignant with ninety-seven percent accuracy. Enter the measurements below to see how it works.  
+<br>
+<br>
+&ensp; Known Benign Tumor Measurements: 13.54, 14.36, 87.46, 566.3, 0.09779, 0.08129
+<br>
+&ensp; Known Malignant Tumor Measurements: 11.42, 20.38, 77.58,	386.1, 0.1425, 0.2839
+</p>
 
     <div id="about" style = "margin-right:100px;">
     <p  style="color: white; align:center;" class="subtitle is-size-6-mobile is-size-4-desktop">
