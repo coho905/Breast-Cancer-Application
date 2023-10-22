@@ -1,3 +1,3 @@
 # README
 
-machine learning breast cancer predictor. Enter in mammogram measurements. deployed at: https://mammogram-mass-analysis.onrender.com/
+A machine learning breast cancer predictor. Enter in mammogram measurements to recieve a prediction on malignant or benign.
