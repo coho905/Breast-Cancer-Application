@@ -4,6 +4,7 @@ Jinja2
 Werkzeug
 click
 scipy
+scikit-learn
 pandas 
 numpy
 pip
